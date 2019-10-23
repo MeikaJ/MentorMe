@@ -1,0 +1,27 @@
+{
+  "name": "MentorMe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "views.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeikaJ/MentorMe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeikaJ/MentorMe/issues"
+  },
+  "homepage": "https://github.com/MeikaJ/MentorMe#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.11.1"
+  }
+}
