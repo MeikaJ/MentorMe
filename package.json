@@ -17,7 +17,11 @@
     "url": "https://github.com/MeikaJ/MentorMe/issues"
   },
   "homepage": "https://github.com/MeikaJ/MentorMe#readme",
-  "dependencies": {},
+  "dependencies": {
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
