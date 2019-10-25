@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/MeikaJ/MentorMe#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "expres": "0.0.5",
     "express": "^4.17.1",
-    "mongoose": "^5.7.7"
+    "mongoose": "^5.7.7",
+    "morgan-body": "^2.4.8"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
