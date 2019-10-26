@@ -2,6 +2,7 @@ import express from 'express';
 import dbConfig from './config/db'
 import middlewareConfig from "./config/middleware"
 import middleware from './config/middleware';
+import { MeetingRoutes } from './modules'
 
 
 
@@ -13,6 +14,7 @@ dbConfig();
 // middleware
 
 middlewareConfig(app);
+app.use('/api', [MeetingRoutes]);
 
 
 const PORT = process.env.PORT || 8080;
