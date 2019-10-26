@@ -20,6 +20,7 @@
   "dependencies": {
     "@babel/preset-stage-0": "^7.0.0",
     "body-parser": "^1.19.0",
+    "expo-cli": "^3.4.1",
     "expres": "0.0.5",
     "express": "^4.17.1",
     "mongod": "^2.0.0",
