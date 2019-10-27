@@ -27,7 +27,8 @@
     "mongod": "^2.0.0",
     "mongoose": "^5.7.7",
     "morgan": "^1.9.1",
-    "morgan-body": "^2.4.8"
+    "morgan-body": "^2.4.8",
+    "node.js": "0.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
