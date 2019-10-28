@@ -23,7 +23,7 @@ class App extends React.Component {
     async componentDidMount() {
         this.setState({ loading: true });
         const data = await this.props.fetchMeeting();
-        this.setState({ loading: false, meetups: data.meetups })
+        setTimeout(() => this.setState({ loading: false, meetings: data.meetings }), 2000)
 
     }
     render() {
@@ -38,6 +38,9 @@ class App extends React.Component {
         return (
             <View style={styles.container}>
                 <Text>MentorMe</Text>
+                {this.state.meetings.map((meetings, i) => (
+                    <text key={i}> {meetup.title}</text>
+                ))}
             </View>
         );
     }
