@@ -25,5 +25,11 @@ export const createGroup = async (req, res) => {
 
   }
 
-  const group = new Group
+  const group = new Group({ title, description });
+  try {
+    return res.status(201).json({ error: false, group: await group.save() })
+  } catch (e) {
+
+    return res.status(400).json({ error: true, message: 'Error h=when group is created' });
+  }
 };

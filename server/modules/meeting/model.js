@@ -14,4 +14,4 @@ var meetSchema = new mongoose.Schema({
 
   }
 }, { timestamp: true })
-export default mongoose.model('meetup', meetSchema);
+export default mongoose.model('Meetup', meetSchema);
