@@ -1,15 +1,14 @@
-//import express from 'express';
-const express = require('express')
-import db from './config/db'
-import middlewareConfig from "./config/middleware"
-import middleware from './config/middleware';
+const express = require('express');
+const dbConfig = require('./config/db');
+const middlewareConfig = require("./config/middleware");
+const middleware = require('./config/middleware');
 import { MeetingRoutes, GroupRoutes } from './modules'
 
 
 const app = express();
 // database placeholder
 
-db();
+dbConfig();
 // middleware
 
 middlewareConfig(app);
