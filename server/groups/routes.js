@@ -1,5 +1,5 @@
-import { router } from 'express';
-import * as GroupController from './controller';
+var router = express.Router();
+var GroupController = require('./controller');
 
 const routes = new Router();
 routes.post('/groups/new', GroupController.createGroup);

@@ -1,4 +1,4 @@
-import Group from './model';
+var Group = require('./model');
 export const createGroup = async (req, res) => {
   const {
     name,

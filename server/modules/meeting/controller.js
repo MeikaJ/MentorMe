@@ -13,7 +13,7 @@ export const createMeeting = async (req, res) => {
     return res.status(e.status).json({ error: true, message: "error with meet" });
   }
 
-  modules.exports const getAllMeetings = async (req, res) => {
+  modules.exports = const getAllMeetings = async (req, res) => {
     try {
       return res.status(200).json({ meetups: await Meetup.find({}) });
     }
